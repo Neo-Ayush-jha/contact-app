@@ -31,6 +31,20 @@ function App() {
               <ContactList refreshTrigger={refreshTrigger} />
             </div>
           </div>
+
+          <footer className="mt-12 text-center py-6 border-t border-gray-200 text-gray-600">
+            <p className="text-sm">
+              Built by{' '}
+              <a
+                href="https://ayush-jha.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 font-semibold underline transition-colors"
+              >
+                Ayush Jha
+              </a>
+            </p>
+          </footer>
         </div>
       </div>
     </div>
